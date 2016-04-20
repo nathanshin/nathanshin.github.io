@@ -1,0 +1,73 @@
+body {
+	height: 650px;
+	background-color: #fffcf7;
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+#bg {
+	height: 100%;
+	position: relative;
+	width: 1000px;
+	top: 50px;
+	background-image: url("../img/home_nav.png");
+	background-repeat: no-repeat;
+	background-position: 500px 20px;	
+	margin: 0px auto;
+}
+
+#brand_logo {
+	display:block;
+  margin:auto;
+}
+
+#main {
+	font-size: 24px;
+	width: 400px;
+	padding-top: 40px;
+	margin-left: 100px;
+}
+
+#kicker {
+	font-style: italic;
+	letter-spacing: 2px;
+}
+
+#nav {
+	width: 450px;
+	padding-left: 60px;
+}
+
+#nav a {
+	color: #396494;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: black;
+}
+
+h3 img {
+	margin-right: 20px;
+}
+
+h3 span {
+	position: relative;
+	top: -15px;
+}
+
+#preload1 {
+	background: url("../img/github_nav.png") no-repeat;
+	display: none;
+}
+#preload2 {
+	background: url("../img/dribbble_nav.png") no-repeat;
+	display: none;
+}
+#preload3 {
+	background: url("../img/twitter_nav.png") no-repeat;
+	display: none;
+}
+#preload4 {
+	background: url("../img/email_nav.png") no-repeat;
+	display: none;
+}
