@@ -1,4 +1,4 @@
-var background = document.getElementById('bg')
+var background = document.getElementById('content')
 var home_nav = document.getElementById('home_nav');
 var github_nav = document.getElementById('github_nav');
 var dribbble_nav = document.getElementById('dribbble_nav');

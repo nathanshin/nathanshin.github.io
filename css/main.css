@@ -1,18 +1,69 @@
-body {
-	height: 650px;
-	background-color: #fffcf7;
-	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+/* Universal */
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color: #fffcf7;
+   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
 
-#bg {
-	height: 100%;
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+/* Header */
+
+header {
+  background: #f3efe7;
+  padding:10px;
+}
+
+nav {
+	margin: 0 auto;
+	width: 980px;
+	text-align: right;
+}
+
+nav #nav-brand {
+	margin-top: -5px;
+	margin-left: 22px;
+	font-size: 30px;
+	float:left;
+}
+
+nav #nav {
 	position: relative;
+	width: 600px;
+	right: -300px;
+
+}
+
+nav #nav li {
+	display: inline-block;
+	color: #396494;
+	letter-spacing: 1.5px;
+	font-size: 24px;
+}
+
+nav #nav a {
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+/* Main Content */
+
+#content {
+	position: relative;
+	top: 10px;
+	height: 100%;
 	width: 1000px;
-	top: 50px;
 	background-image: url("../img/home_nav.png");
 	background-repeat: no-repeat;
 	background-position: 500px 20px;	
 	margin: 0px auto;
+	padding-bottom: 60px;
 }
 
 #brand_logo {
@@ -54,6 +105,24 @@ h3 span {
 	position: relative;
 	top: -15px;
 }
+
+/* Footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
+  background: #f3efe7;
+  text-align: center;
+}
+
+footer p {
+	margin-top: 22px;
+	font-size: 10px;
+}
+
+/* Miscellaneous */
 
 #preload1 {
 	background: url("../img/github_nav.png") no-repeat;
