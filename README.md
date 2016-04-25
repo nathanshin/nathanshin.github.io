@@ -2,4 +2,4 @@
 
 This is a personal website to display my code, my writing, and my resume. 
 
-You can view it here: [nathanshin.me](https://nathanshin.me)
+You can view it here: [nathanshin.me](nathanshin.me)
